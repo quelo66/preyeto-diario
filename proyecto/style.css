@@ -3,24 +3,28 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-h1{
-    font-size: 2em;
+header{ 
+    font-size: 1em;
+    width: 100%;
+    max-width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
 }
 h5{
     font-size: 1.5em;
 }
 h6{
-    font-size: .5em;
+    font-size: 1em;
 }
 body{
     background-color: antiquewhite;
-    
     padding: 10px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-self: unset;
     align-items: center;
-    height: 100vh;
-    justify-content: center;
 }
 .cab{
     width: 100%;
@@ -54,9 +58,9 @@ body{
 }
 .title::before{
     content: '';
-    width: 90%;
+    width: 95%;
     height: 1px;
-    background-color: #f00;
+    background-color: #ccc;
     margin: -1em 0 2em ;
 }
 article div div{
@@ -94,6 +98,7 @@ justify-content: center;
     background-color: #ccc;
 }
 #subtitle{
+    padding-left: 1em;
     display: flex;
     flex-direction: row;
     background-color: aliceblue;
@@ -114,8 +119,33 @@ justify-content: center;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .image-discobery{
+    
     width: 100%;
     border-radius: 100%;
+}
+footer{
+    margin-bottom: auto;
+    margin-top: auto;
+    color: rgba(168, 168, 168, 0.74);
+    display: block;
+    justify-content: end;
+    align-self: end;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+.feed{
+    width: auto;
+    height: inherit;
+    
+}
+#feed{
+    height: 30em;
+    width: auto;
+}
+article{
+    
+    margin-bottom: 4em;
 }
